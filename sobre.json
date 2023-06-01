@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Rodrigo Gontyjo",
+        "imagename": "Rodrigo",
+        "image": "https://cdn.discordapp.com/attachments/779035142239813725/1111408741930242110/image.png",
+        "texto": "Sou um jovem estudante que, desde criança por meio de jogos virtuais, aprendi a gostar e admirar a tecnologia. Estou desenvolvendo o raciocínio lógico e aprendendo programação.",
+
+        "medias":{
+            "crv": "?",
+            "linke": "https://www.linkedin.com/in/rodrigogontyjo/",
+            "git": "https://github.com/Gontyjo"
+        }
+    },
+    {
+        "name": "Vanessa Machado",
+        "image": "https://media.licdn.com/dms/image/D4D03AQEuJozQ3MiTMw/profile-displayphoto-shrink_200_200/0/1684249368342?e=1690416000&v=beta&t=lXoHNsq_gOQYM3qCy2wHX8s4JuXia3yY7j9iignnq44",
+        "texto": "Em minha trajetória profissional até o momento tive a oportunidade de desenvolver habilidades de comunicação, trabalho em equipe, organização e planejamento as quais julgo serem extremamente necessárias para qualquer pessoa desenvolvedora.",
+
+        "medias":{
+            "crv": "?",
+            "linke": "https://www.linkedin.com/in/vanessasouzamachado/",
+            "git": "https://github.com/Vanessamachado93"
+        }
+    },
+    {
+        "name": "Jonathan Spada",
+        "image": "https://media.licdn.com/dms/image/D4D03AQFhNt-LxeSB-A/profile-displayphoto-shrink_800_800/0/1678860137140?e=1690416000&v=beta&t=-lwIvPYtK8_HRQ4bNvBxuxMa2OQUNPrT7E-Ik5gTg4Y",
+        "texto": "No momento estou em transição profissional, tendo trabalhado deforma exclusiva como advogado durante os últimos 06 anos. Conheci área de Cloud Computing por meio de cursos e me apaixonei.",
+
+        "medias":{
+            "crv": "?",
+            "linke": "https://www.linkedin.com/in/jonathan-spada/",
+            "git": "https://github.com/jonspada"
+        }
+    },
+    {
+        "name": "Adriana Silva",
+        "image": "https://media.licdn.com/dms/image/D4D03AQGdTTbHZkGb_A/profile-displayphoto-shrink_800_800/0/1684279528585?e=1690416000&v=beta&t=pg2OxTw_IMTsI7vrxk9QYvqk8A7UYGNamd3kqqLV-Fs",
+        "texto": "Olá, eu me chamo Adriana Silva, e estou em processo de transição de carreira para Tecnologia. Possuo experiência anterior com operações logísticas e vendas.",
+
+        "medias":{
+            "crv": "?",
+            "linke": "https://www.linkedin.com/in/adriana-silva-3000a9261/",
+            "git": "?"
+        }
+    }
+]
