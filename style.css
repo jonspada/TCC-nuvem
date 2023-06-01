@@ -71,6 +71,8 @@ footer {
     padding: 3rem;
     width: 90%;
     max-width: 300px;
+    min-height: 475px;
+    max-height: 475px;
     background-color: #3437696e;
     border-radius: 16px;
     position: absolute;
@@ -140,6 +142,53 @@ footer {
 
 [data-component="slideshow"] .slide.active {
     display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #slideshow-example {
+        background-color: #3331aa00;
+        display: flex;
+        width: 90%;
+        height: 50%;
+        margin-top: 5%;
+        background-color: #3331aa00;
+        display: flex;
+        position: fixed;
+        margin-left: 12%;
+        align-items: center;
+    }
+
+    #profile {
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #3437696e;
+        border-radius: 16px;
+        position: absolute;
+        border: 3px solid transparent;
+        background-clip: padding-box;
+        text-align: center;
+        color: #f1f3f3;
+        background-image: linear-gradient(135deg,
+                rgba(#752e7c, 0.35),
+                rgba(#734a58, 0.1) 15%,
+                #1b202809 20%,
+                #1b202831 100%);
+    }
+
+    #notebookicondiv {
+        visibility: hidden;
+        display: flex;
+        background-color: transparent;
+        width: fit-content;
+        height: fit-content;
+        position: fixed;
+        right: 0;
+    }
+
+
 }
 
 @media only screen and (max-width: 425px) {

@@ -6,7 +6,7 @@
         "texto": "Sou um jovem estudante que, desde criança por meio de jogos virtuais, aprendi a gostar e admirar a tecnologia. Estou desenvolvendo o raciocínio lógico e aprendendo programação.",
 
         "medias":{
-            "crv": "?",
+            "crv": "/crs/Rodrigo.html",
             "linke": "https://www.linkedin.com/in/rodrigogontyjo/",
             "git": "https://github.com/Gontyjo"
         }
@@ -17,7 +17,7 @@
         "texto": "Em minha trajetória profissional até o momento tive a oportunidade de desenvolver habilidades de comunicação, trabalho em equipe, organização e planejamento as quais julgo serem extremamente necessárias para qualquer pessoa desenvolvedora.",
 
         "medias":{
-            "crv": "?",
+            "crv": "/crs/Vanessa.html",
             "linke": "https://www.linkedin.com/in/vanessasouzamachado/",
             "git": "https://github.com/Vanessamachado93"
         }
@@ -28,7 +28,7 @@
         "texto": "No momento estou em transição profissional, tendo trabalhado deforma exclusiva como advogado durante os últimos 06 anos. Conheci área de Cloud Computing por meio de cursos e me apaixonei.",
 
         "medias":{
-            "crv": "?",
+            "crv": "/crs/Jon.html",
             "linke": "https://www.linkedin.com/in/jonathan-spada/",
             "git": "https://github.com/jonspada"
         }
@@ -39,9 +39,20 @@
         "texto": "Olá, eu me chamo Adriana Silva, e estou em processo de transição de carreira para Tecnologia. Possuo experiência anterior com operações logísticas e vendas.",
 
         "medias":{
-            "crv": "?",
+            "crv": "/crs/Adriana.html",
             "linke": "https://www.linkedin.com/in/adriana-silva-3000a9261/",
-            "git": "?"
+            "git": "/index.html"
+        }
+    },
+        {
+        "name": "Lucas Santos Cunha",
+        "image": "https://media.licdn.com/dms/image/D4D35AQHMY02nca01Zg/profile-framedphoto-shrink_800_800/0/1684274646307?e=1686250800&v=beta&t=prnbal73r4SWGvlin-zd4XkkLp6Y5HR05s6lCBqf6ig",
+        "texto": "Formado em Engenharia de Controle e Automação - Wyden Área 1 em março de 2021 Cursando Fundamentos AWS com previsão de conclusão em março de 2023, Inglês Nível C1",
+
+        "medias":{
+            "crv": "/crs/Lucas.html",
+            "linke": "https://www.linkedin.com/in/lucas-santos-cunha/",
+            "git": "https://github.com/lscunha"
         }
     }
 ]
