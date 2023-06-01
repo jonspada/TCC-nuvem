@@ -9,24 +9,25 @@ var JSONObject = JSON.parse(request.responseText)
 
 function newCard(value){
    return `
-   <div class="slide" id="profilecard" role="${value.name}">
-   <img id="imagecard" src="${value.image}" alt="">
-   <h2 id="namecard">${value.name}</h2>
-   <div id="textcard">
-       <p>${value.texto}</p>
-   </div>
-   <div id="buttonscard">
-       <a id="button-rede" class="link-linke" target="_blank" href="${value.crv}">
-           <img id="img-rede" src="assets/curriculo.png" alt="logo do LinkedIn">
-       </a>
-       <a id="button-rede" class="link-linke" target="_blank" href="${value.medias.linke}">
-           <img id="img-rede" src="assets/linkedin.png" alt="logo do LinkedIn">
-       </a>
-       <a id="button-rede" class="link-git" target="_blank" href="${value.medias.git}">
-           <img disabled id="img-rede" src="assets/git.png" alt="logo do GitHub">
-       </a>
-   </div>
-</div>
+  <article class="slide" id="profile" role="${value.name}">
+                <div id="profileimage">
+                    <img id="profileimageimg" src="${value.image}"
+                        alt="">
+                </div>
+                <h2 id="profileusername">${value.name}</h2>
+                <small id="profileabout">${value.texto}</small>
+                <div id="profilelinks">
+                    <a href="${value.medias.crv}" target="_blank" class="link link--icon">
+                        <img id="profilelinksimage"  src="/assets/curriculo.png" alt="">
+                    </a>
+                    <a href="${value.medias.git}" target="_blank" class="link link--icon">
+                        <img id="profilelinksimage"  src="/assets/git.png" alt="">
+                    </a>
+                    <a href="${value.medias.linke}" target="_blank" class="link link--icon">
+                        <img id="profilelinksimage"  src="/assets/linkedin.png" alt="">
+                    </a>
+                </div>
+            </article>
    `
 }
 

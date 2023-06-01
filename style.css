@@ -58,89 +58,80 @@ footer {
     width: 30%;
     height: 60%;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 10%;
     flex-wrap: wrap;
 }
 
-#profilecard {
+#profile {
     visibility: hidden;
     display: flex;
-    background: linear-gradient(60.85deg, #A323A6 0%, #571B87 41.31%, #3331AA 67.7%, #4A9BFB 95.7%) fixed;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    width: 90%;
+    max-width: 300px;
+    background-color: #3437696e;
+    border-radius: 16px;
     position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-    left: 50%;
-    margin-left: -50%;
-    /*Metade do width */
-    cursor: pointer;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    text-align: center;
+    color: #f1f3f3;
+    background-image: linear-gradient(135deg,
+            rgba(#752e7c, 0.35),
+            rgba(#734a58, 0.1) 15%,
+            #1b202809 20%,
+            #1b202831 100%);
 }
 
-#imagecard {
-    width: 150px;
-    height: 150px;
+#profileimage {
     border-radius: 50%;
-    margin-top: 5%;
-    margin-left: 5%;
+    overflow: hidden;
+    width: 175px;
+    height: 175px;
+    position: relative;
 }
 
-#namecard {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    color: white;
-    margin-top: 15%;
-    margin-left: 10%;
-    font-size: 40px;
-    font-weight: 600;
-}
-
-#textcard {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    color: white;
-    font-size: 25px;
-    font-weight: 200;
-    margin-top: 35%;
-    margin-left: 5%;
+#profileimageimg {
     position: absolute;
-    width: 80%;
-    height: 80%;
+    top: 50%;
     left: 50%;
-    margin-left: -40%;
-    text-align: justify;
-}
-
-#buttonscard {
-    display: flex;
-    background-color: #aa319000;
-    flex-wrap: wrap;
-    position: absolute;
-    align-items: center;
+    transform: translate(-50%, -50%);
     width: 100%;
-    height: 10%;
-    left: 50%;
-    margin-left: -50%;
-    bottom: 0;
-    margin-bottom: 2%;
-    align-items: center;
-    justify-content: center;
 }
 
-#img-rede {
-    position: static;
-    width: 50px;
-    color: #fdfdfd;
+#profileusername {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+#profileabout {
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 1.5rem;
+}
+
+#profilelinks {
+    margin-top: 3.5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #7d8396;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+
+    i {
+        font-size: 1.25em;
+    }
+}
+
+#profilelinksimage {
+    height: 46px;
+    width: 46px;
     filter: invert(100%);
-    justify-content: flex-end;
-    flex-direction: row;
-
-}
-
-#button-rede {
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 [data-component="slideshow"] .slide {
@@ -151,212 +142,32 @@ footer {
     display: block;
 }
 
-@media only screen and (max-width: 1440px) {
-    #notebookicondiv {
-        visibility: hidden;
-    }
-
-    #slideshow-example {
-        background-color: #3331aa00;
-        display: flex;
-        width: 80%;
-        height: 50%;
-        align-items: center;
-        margin-top: 5%;
-        left: 0;
-        /* margin-left: 10%; */
-        flex-wrap: wrap;
-    }
-
-    #libutton {
-        font-family: 'Powerr';
-        font-style: normal;
-        font-weight: 200;
-        font-size: 40px;
-        background-color: transparent;
-        border: transparent;
-        color: white;
-        padding: 20%;
-        cursor: pointer;
-    }
-}
-
-@media only screen and (max-width: 2560px) {
-
-    header {
-        display: inline-flex;
-        align-items: center;
-        padding-top: 2%;
-        padding-left: 5%;
-    }
-    
-    #ulbuttons {
-        display: flex;
-        position: absolute;
-        right: 0;
-        flex-direction: row;
-        justify-content: flex-end;
-        padding-right: 10%;
-    
-    }
-    
-    #libutton {
-        font-family: 'Powerr';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 25px;
-        background-color: transparent;
-        border: transparent;
-        color: white;
-        padding: 20%;
-        cursor: pointer;
-    }
-    
-    #notebookicondiv {
-        display: flex;
-        background-color: transparent;
-        width: fit-content;
-        height: fit-content;
-        position: fixed;
-        right: 0;
-    }
-    
-    #slideshow-example {
-        background-color: #3331aa00;
-        display: flex;
-        position: fixed;
-        width: 30%;
-        height: 60%;
-        align-items: center;
-        margin-top: 5%;
-        margin-left: 10%;
-        flex-wrap: wrap;
-    }
-    
-    #profilecard {
-        /* visibility: hidden; */
-        display: flex;
-        background: linear-gradient(60.85deg, #A323A6 0%, #571B87 41.31%, #3331AA 67.7%, #4A9BFB 95.7%) fixed;
-        flex-wrap: wrap;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        border-radius: 5%;
-        left: 50%;
-        margin-left: -50%;
-        /*Metade do width */
-        cursor: pointer;
-    }
-    
-    #imagecard {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        margin-top: 5%;
-        margin-left: 5%;
-    }
-    
-    #namecard {
-        font-family: 'Open Sans', sans-serif;
-        font-style: normal;
-        color: white;
-        margin-top: 15%;
-        margin-left: 10%;
-        font-size: 40px;
-        font-weight: 600;
-    }
-    
-    #textcard {
-        font-family: 'Open Sans', sans-serif;
-        font-style: normal;
-        color: white;
-        font-size: 25px;
-        font-weight: 200;
-        margin-top: 30%;
-        margin-left: 5%;
-        position: absolute;
-        width: 80%;
-        height: 80%;
-        left: 50%;
-        margin-left: -40%;
-        text-align: justify;
-    }
-    
-    #buttonscard {
-        display: flex;
-        background-color: #aa319000;
-        flex-wrap: wrap;
-        position: absolute;
-        align-items: center;
-        width: 100%;
-        height: 10%;
-        left: 50%;
-        margin-left: -50%;
-        bottom: 0;
-        margin-bottom: 2%;
-        align-items: center;
-        justify-content: center;
-    }
-
-}
-
-@media only screen and (max-width: 768px) {
-    #notebookicondiv {
-        visibility: hidden;
-    }
-
-    #slideshow-example {
-        background-color: #3331aa00;
-        display: flex;
-        width: 80%;
-        height: 50%;
-        align-items: center;
-        margin-top: 5%;
-        left: 0;
-        /* margin-left: 10%; */
-        flex-wrap: wrap;
-    }
-
-    #libutton {
-        font-family: 'Powerr';
-        font-style: normal;
-        font-weight: 200;
-        font-size: 30px;
-        background-color: transparent;
-        border: transparent;
-        color: white;
-        padding: 20%;
-        cursor: pointer;
-    }
-}
-
 @media only screen and (max-width: 425px) {
 
     header {
-        display: block;
+        display: flex;
     }
 
     #nuvemicon {
+        visibility: hidden;
         justify-content: center;
-        padding-left: 20%;
+    }
+
+    #notebookicondiv {
+        visibility: hidden;
     }
 
     #ulbuttons {
-        display: table-row;
-        position: absolute;
-        flex-direction: row;
-        align-items: center;
-        left: 60%;
-        margin-left: -50%;
-        justify-content: space-evenly;
-
+        display: flex;
     }
 
     #libutton {
         font-family: 'Powerr';
         font-style: normal;
         font-weight: 200;
-        font-size: 20px;
+        font-size: 15px;
+        left: 0;
+        padding-right: 100%;
         background-color: transparent;
         border: transparent;
         color: white;
@@ -370,75 +181,36 @@ footer {
         display: flex;
         width: 90%;
         height: 50%;
-        align-items: center;
-        margin-top: 25%;
-        margin-left: 3%;
-        flex-wrap: wrap;
-    }
-
-    #profilecard {
-        display: block;
-        background: transparent;
-        flex-wrap: wrap;
-        position:relative;
-        width: 100%;
-        height: 130%;
-        border-radius: 2%;
-        left: 50%;
-        margin-left: -50%;
-        /*Metade do width */
-        cursor: pointer;
-    }
-
-    #imagecard {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
         margin-top: 5%;
-        margin-left: 30%;
-    }
-    
-    #namecard {
-        font-family: 'Open Sans', sans-serif;
-        font-style: normal;
-        color: white;
-        margin-top: 2%;
-        margin-left: 30%;
-        font-size: 40px;
-        font-weight: 600;
-    }
-    
-    #textcard {
-        font-family: 'Open Sans', sans-serif;
-        font-style: normal;
-        color: white;
-        font-size: 25px;
-        font-weight: 200;
-        margin-top: 1%;
-        margin-left: 5%;
-        position: absolute;
-        width: 80%;
-        height: 50%;
-        left: 50%;
-        margin-left: -40%;
-        text-align: justify;
-    }
-    
-    #buttonscard {
+        background-color: #3331aa00;
         display: flex;
-        background-color: #aa319000;
-        flex-wrap: wrap;
-        position: absolute;
+        position: fixed;
+        margin-left: 0%;
         align-items: center;
-        width: 100%;
-        height: 10%;
-        left: 50%;
-        margin-left: -50%;
-        bottom: 0;
-        margin-bottom: 2%;
-        align-items: center;
-        justify-content: center;
     }
+
+    .list {
+
+    }
+
+    #profile {
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #3437696e;
+        border-radius: 16px;
+        position: absolute;
+        border: 3px solid transparent;
+        background-clip: padding-box;
+        text-align: center;
+        color: #f1f3f3;
+        background-image: linear-gradient(135deg,
+                rgba(#752e7c, 0.35),
+                rgba(#734a58, 0.1) 15%,
+                #1b202809 20%,
+                #1b202831 100%);
+    }
+
 
 }
-
