@@ -131,7 +131,8 @@ footer {
 #img-rede {
     position: static;
     width: 50px;
-    color: #172335;
+    color: #fdfdfd;
+    filter: invert(100%);
     justify-content: flex-end;
     flex-direction: row;
 
